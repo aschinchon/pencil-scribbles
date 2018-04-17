@@ -12,7 +12,7 @@ Overlapping 250 paths and giving transparency to lines (`alpha`) the resulting d
 
 The output is this one:
 
-![ScreenShot](https://fronkonstin.com/wp-content/uploads/2018/04/franky_scribbles.png)
+![ScreenShot](https://fronkonstin.com/wp-content/uploads/2018/04/franky_scribbles.png){:height="50%" width="50%"}
 
 ## Getting Started
 

@@ -34,16 +34,9 @@ for (i in 1:250)
   as.TSP(dist(data)) %>% 
     solve_TSP(method = "arbitrary_insertion") %>% 
     as.integer() -> solution
-  
-  # Create a dataframe with the output of TSP
-  data.frame(id=solution) %>% 
-    mutate(order=row_number()) -> order
-  
+
   # Rearrange the original points according the TSP output
-  data %>% 
-    mutate(id=row_number()) %>% 
-    inner_join(order, by="id") %>% arrange(order) %>% 
-    select(x,y) -> data_to_plot
+  data_to_plot <- data[solution,]
   
   # Add a new layer to prevous plot
   plot + geom_path(aes(x,y), data=data_to_plot, alpha=runif(1, min=0, max=0.1))->plot  

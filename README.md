@@ -8,11 +8,11 @@ In this experiment I use an algorithm to solve the Travelling Salesman Problem (
 
 Overlapping 250 paths and giving transparency to lines (`alpha`) the resulting drawing has a *pencil effect*. For example, if you load this image:
 
-<img src="https://fronkonstin.com/wp-content/uploads/2018/04/frankenstein.jpg" style="max-height: 100px; max-width: 100px;" />
+<img src="https://fronkonstin.com/wp-content/uploads/2018/04/frankenstein.jpg">
 
 The output is this one:
 
-<img src="https://fronkonstin.com/wp-content/uploads/2018/04/franky_scribbles2.png" style="max-height: 100px; max-width: 100px;" />
+<img src="https://fronkonstin.com/wp-content/uploads/2018/04/franky_scribbles2.png">
 
 ## Getting Started
 
